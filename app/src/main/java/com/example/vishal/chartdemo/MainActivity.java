@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         entries.add(new BarEntry(18f, 4));
         entries.add(new BarEntry(9f, 5));
 
+
+
         BarDataSet dataset = new BarDataSet(entries, "# of Calls");
 
         ArrayList<String> labels = new ArrayList<String>();
